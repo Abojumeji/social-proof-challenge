@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "spartan" sans-serif;
+  font-size: 15px;
+  max-width: 1440px;
+  line-height: 1.1;
+
+  height: 100%;
+  /* margin: 0; */
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  /* width: 10rem; */
+  /* height: 40rem; */
+  padding: 0 2rem 0 2rem;
+}
+
+.first-grid {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  width: 1114px;
+
+  align-items: center;
+}
+
+.bold {
+  font-size: 60px;
+  margin-bottom: 1.6rem;
+  color: hsl(300, 43%, 22%);
+  line-height: 0.8;
+  word-spacing: 0.2;
+}
+
+.first-p {
+  line-height: 1.4;
+  margin-bottom: 3rem;
+  color: hsl(303, 10%, 53%);
+}
+
+.star-d {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  background-color: hsl(300, 24%, 96%);
+  margin-bottom: 0.8rem;
+  padding: 0.8rem 2rem 0.8rem 1rem;
+  color: hsl(300, 43%, 22%);
+  font-weight: 600;
+  align-items: stretch;
+  width: 23rem;
+  border-radius: 9px;
+  margin-left: 5.45rem;
+}
+/* .star-d--one {
+  /* transform: translateX(10px); */
+
+.star-d--two {
+  /* margin-left: 2rem; */
+  transform: translateX(28px);
+}
+.star-d--three {
+  /* margin-left: 4rem; */
+  transform: translateX(60px);
+}
+.star {
+  width: 0.8rem;
+}
+.star:last-child {
+  margin-right: 2rem;
+}
+
+.star-p {
+  align-items: stretch;
+}
+
+.second-grid {
+  display: flex;
+  gap: 2rem;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  width: 1114px;
+  /* height: 20rem; */
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.boxes {
+  background-color: hsl(300, 43%, 22%);
+  width: auto;
+  padding: 2rem 2rem;
+  border-radius: 11px;
+}
+.boxes-one {
+  margin-top: 2rem;
+}
+.boxes-two {
+  /* transform: translateY(20px); */
+  margin-top: 3rem;
+  align-self: flex-start !important;
+}
+
+.boxes-three {
+  /* transform: translateY(40px); */
+  margin-top: 4rem;
+}
+
+.flex-p {
+  display: flex;
+  gap: 2rem;
+
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.image {
+  border-radius: 50%;
+  width: 2rem;
+}
+.white-name {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+.pink-name {
+  color: hsl(333, 80%, 67%);
+}
+.qoute {
+  color: hsl(300, 24%, 96%);
+}
